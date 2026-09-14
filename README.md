@@ -6,6 +6,8 @@ on a 128x64 SSD1306 OLED, and beeps a passive buzzer on:
 - a fast move between two polls (`STEP_MOVE_PERCENT`)
 - price dropping to/below your stop-loss level (`STOP_LOSS_PRICE`) — a distinct triple-beep + on-screen banner
 
+<img src="photos/display-closeup.jpg" width="400" alt="OLED showing NVDA price with stop-loss banner"> <img src="photos/full-setup.jpg" width="400" alt="Full breadboard setup with NodeMCU and OLED">
+
 ## Hardware
 
 NodeMCU (ESP8266) + SSD1306 (SPI) + passive buzzer (2-pin, +/-).
